@@ -150,3 +150,47 @@
   font-size: 20px;
 }
 
+//  Animation cards 
+
+@keyframes effet {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  } 
+  
+  .choix1 {
+    animation: effet 0.2s ease-in-out;
+  }
+  .choix2 {
+    animation: effet 0.4s ease-in-out;
+  }
+  .choix3 {
+    animation: effet 0.7s ease-in-out;
+  }
+  .choix4 {
+    animation: effet 1s ease-in-out;
+  }
+  .choix5 {
+    animation: effet 1.2s ease-in-out;
+  }
+  .choix6 {
+    animation: effet 1.4s ease-in-out;
+  }
+  .choix7 {
+    animation: effet 1.6s ease-in-out;
+  }
+  .choix8 {
+    animation: effet 1.8s ease-in-out;
+  }
+  .choix9 {
+    animation: effet 1.9s ease-in-out;
+  }
+  .choix10 {
+    animation: effet 2s ease-in-out;
+  }

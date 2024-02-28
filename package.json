@@ -1,0 +1,22 @@
+{
+  "name": "projet-3-ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 openclassrooms Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NicolaeZOLTAN/Projet-3-Ohmyfood.git"
+  },
+  "author": "Nicolae ZOLTAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolaeZOLTAN/Projet-3-Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/NicolaeZOLTAN/Projet-3-Ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

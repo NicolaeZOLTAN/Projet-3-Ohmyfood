@@ -373,31 +373,31 @@ nav li:hover {
   }
 }
 .choix1 {
-  animation: effet 0.2s ease-in-out;
+  animation: effet 0.1s ease-in-out;
 }
 
 .choix2 {
-  animation: effet 0.4s ease-in-out;
+  animation: effet 0.55s ease-in-out;
 }
 
 .choix3 {
-  animation: effet 0.7s ease-in-out;
+  animation: effet 0.85s ease-in-out;
 }
 
 .choix4 {
-  animation: effet 1s ease-in-out;
+  animation: effet 1.15s ease-in-out;
 }
 
 .choix5 {
-  animation: effet 1.2s ease-in-out;
+  animation: effet 1.25s ease-in-out;
 }
 
 .choix6 {
-  animation: effet 1.4s ease-in-out;
+  animation: effet 1.45s ease-in-out;
 }
 
 .choix7 {
-  animation: effet 1.6s ease-in-out;
+  animation: effet 1.65s ease-in-out;
 }
 
 .choix8 {
@@ -602,6 +602,26 @@ header a {
   to {
     transform: rotate(360deg);
   }
+}
+button.btn {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  transition: transform 200ms;
+  margin-top: 1rem;
+  cursor: pointer;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
+  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  font-size: 1rem;
+  color: white;
+}
+
+button.btn:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=style.css.map */

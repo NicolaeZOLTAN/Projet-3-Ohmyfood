@@ -1,0 +1,91 @@
+section { 
+  background-color: #F6F6F6;
+  padding-bottom: 66px;
+
+  h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;    
+  padding : 36px 58px 12px 42px;
+  }
+
+  p {
+  text-align: center;
+  font-size: 18px;
+  color : #353535;
+  margin: 0 30px 27px 34px;
+  }     
+}
+
+nav {
+
+  h2 {  
+  margin-left: 20px;
+  padding: 44px 0 24px 0;
+  }
+
+  ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  counter-reset: nbr;
+  }
+}  
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  margin-top: 42px;
+
+  h2 {
+  text-align: start;
+  font-size: 24px;
+  margin-left: 20px;
+  padding: 48px 0 24px 0;
+  }
+}
+
+
+@media only screen and (min-width:900px) {
+
+  .fonctionnement, .restaurant {
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  nav ol {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;                 
+  }
+  .restaurant {
+    margin-top: 20px;
+    padding: 0 12.5%;
+
+    h2 {
+    padding: 28px 0 0 0;    
+    }
+}
+}
+
+@media only screen and ( min-width: 1440px) {
+
+  section {
+      padding-bottom: 30px; 
+
+      h2 {           
+      font-size: 40px;
+      padding: 30px 0;       
+      }
+  }
+
+  nav ol {       
+      padding: 0 20px 20px 0;
+      text-align: center;
+  }    
+  
+  .restaurant {
+      margin-top: 0;    
+      padding: 0 180px;
+  }
+}

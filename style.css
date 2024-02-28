@@ -98,4 +98,134 @@ header h1 {
   opacity: 0.9;
 }
 
+section {
+  background-color: #F6F6F6;
+  padding-bottom: 66px;
+}
+section h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 36px 58px 12px 42px;
+}
+section p {
+  text-align: center;
+  font-size: 18px;
+  color: #353535;
+  margin: 0 30px 27px 34px;
+}
+
+nav h2 {
+  margin-left: 20px;
+  padding: 44px 0 24px 0;
+}
+nav ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  counter-reset: nbr;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  margin-top: 42px;
+}
+.restaurant h2 {
+  text-align: start;
+  font-size: 24px;
+  margin-left: 20px;
+  padding: 48px 0 24px 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .fonctionnement, .restaurant {
+    width: 75%;
+    margin: 0 auto;
+  }
+  nav ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .restaurant {
+    margin-top: 20px;
+    padding: 0 12.5%;
+  }
+  .restaurant h2 {
+    padding: 28px 0 0 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  section {
+    padding-bottom: 30px;
+  }
+  section h2 {
+    font-size: 40px;
+    padding: 30px 0;
+  }
+  nav ol {
+    padding: 0 20px 20px 0;
+    text-align: center;
+  }
+  .restaurant {
+    margin-top: 0;
+    padding: 0 180px;
+  }
+}
+nav ol li {
+  display: flex;
+  font-size: 15px;
+}
+nav ol li::before {
+  display: inline-block;
+  width: 16px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding: 4px 4px 4px 10px;
+  font-size: 16px;
+  content: counter(nbr);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: left;
+  transform: translate(-15px, -50%);
+}
+
+nav li {
+  display: inline-block;
+  align-items: center;
+  width: 240px;
+  padding: 26px 40px 26px 39px;
+  background: 16px;
+  box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 20px;
+  margin: 0px 20px 28px 32px;
+  counter-increment: nbr;
+  position: relative;
+  font-weight: 500;
+  color: #101010;
+  cursor: pointer;
+  gap: 20px;
+}
+
+nav li:hover {
+  transform: translateY(-50%);
+  transform: scale(1.02);
+}
+
+nav li:hover {
+  color: #9356dc;
+}
+
+.fa-mobile-screen-button, .fa-list {
+  color: #7E7E7E;
+}
+
+.fa-store {
+  color: #7E7E7E;
+}
+
 /*# sourceMappingURL=style.css.map */

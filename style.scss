@@ -1,3 +1,2 @@
-body{
-  background-color: pink;
-}
+@use "./sass/bases.scss";
+@use "./sass/layout/header.scss";

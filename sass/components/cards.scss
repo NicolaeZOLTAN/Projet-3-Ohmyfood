@@ -30,8 +30,8 @@
           text-align: center;
           font-size: 16px;  
           padding: 6px;
-          background-color: #99E2D0;
-          color: #008766;
+          background-color: $vert-c;
+          color: $vert-f;
           border-radius: 2px;
       } 
 
@@ -53,7 +53,7 @@
         position: absolute;
         border: none;
         background-color: transparent;
-        color: #101010;
+        color: $black;
         right: 25px;
         bottom: 30px;
         transform: scale(0.8);
@@ -63,7 +63,7 @@
         position: absolute;
         opacity: 0;
         border: none;
-        background: linear-gradient(to left, #9356DC, #FF79DA);
+        background: $linear-gradient;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;            
@@ -78,7 +78,7 @@
       }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: $medium) {
     display: grid;
     grid-template-columns : repeat(2, 1fr); 
     grid-template-rows : 1fr 1fr;
@@ -89,7 +89,7 @@
     max-width: 1080px;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: $large) {
   min-width: 490px;
 }
 }
@@ -131,7 +131,7 @@
 
   button {
       width: 64px;
-      background-color: #99E2D0;
+      background-color: $vert-c;
       border-radius: 0 20px 20px 0;
       color: white;
       border: 0;

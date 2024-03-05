@@ -8,8 +8,8 @@ button.btn{
   transition: transform 200ms;
   margin-top: 1rem;
   cursor: pointer;
-  box-shadow: 2px 1px 8px -3px #7e7e7e;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  box-shadow: 2px 1px 8px -3px $box-shadows;
+  background-image: $linear-gradient;
   font-size: 1rem;
   color:white;
 }

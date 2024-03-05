@@ -6,7 +6,7 @@ nav ol li {
       display: inline-block;
       width: 16px;  
       color: white; 
-      background-color: #9356DC;
+      background-color:$violet;
       border-radius: 50%;
       padding: 4px 4px 4px 10px;
       font-size: 16px;
@@ -25,13 +25,13 @@ nav li {
   width: 240px;
   padding: 26px 40px 26px 39px; 
   background: 16px;
-  box-shadow: 0px 6px 15px 2px rgba(0,0,0,0.14);
+  box-shadow: 0px 6px 15px 2px $box-shadows-f;
   border-radius: 20px;
   margin: 0px 20px 28px 32px; 
   counter-increment: nbr;
   position: relative;         
   font-weight: 500;
-  color: #101010;
+  color: $black;
   cursor: pointer;
   gap: 20px;   
 }
@@ -41,13 +41,13 @@ nav li:hover{
 }
 
 nav li:hover{
-  color: #9356dc;
+  color: $violet;
 }
 
 .fa-mobile-screen-button, .fa-list {
-  color: #7E7E7E;
+  color: $box-shadows;
 }
 
 .fa-store {
-  color: #7E7E7E;
+  color: $box-shadows;
 }

@@ -16,8 +16,9 @@ header {
   aspect-ratio: 26/10;
   object-fit: cover;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: $large) {
       max-height: 350px;
+      overflow-x: hidden;
   }
 }
 
@@ -26,15 +27,16 @@ header {
   max-width: 1055px;
   flex-direction: column;
   justify-content: center;
-  background-color: #F6F6F6;
+  background-color: $grey-light;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
   margin: -50px auto;
   padding-bottom: 40px;
 
-  @media only screen and ( min-width: 867px ) {
+  @media only screen and ( min-width: $small ) {
   margin-bottom: 0;
+  overflow-x: hidden;
 
   .list {
       width: 100%;
@@ -69,7 +71,7 @@ header {
     position: absolute;
     border: none;
     background-color: transparent;
-    color:#101010;
+    color:$black;
     right: 25px;
     bottom: 30px;
     transform: scale(0.8);
@@ -81,7 +83,7 @@ header {
     position: absolute;
     opacity: 0;
     border: none;
-    background: linear-gradient(to left, #9356DC, #FF79DA);
+    background:$linear-gradient;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;            
@@ -121,7 +123,7 @@ header {
   h3::before {
       content:"";
       position: absolute;
-      border-bottom: 3px #99E2D0 solid;
+      border-bottom: 3px $vert-c solid;
       width: 40px;
       top: 28px;
       left: 0;
